@@ -1,0 +1,29 @@
+{
+  "version":1,
+  "validator": "^5.5.0",
+  "validaciones":{
+    "emailField":{
+      "email": true
+    },
+    "dateField":{
+      "dateOnly": true
+    },
+    "dateTimeField":{
+      "datetime": true
+    },
+    "integerField":{
+      "numericality": {
+        "onlyInteger": true,
+        "strict": true
+      }
+    },
+    "decimalField":{
+      "numericality": {
+        "strict": true
+      }
+    },
+    "URLField":{
+      "url": true
+    }
+  }
+}
